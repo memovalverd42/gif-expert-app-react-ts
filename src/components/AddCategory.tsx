@@ -33,6 +33,7 @@ export const AddCategory: FC<newCategoryProp> = ( { onNewCategory } ) => {
     return (
         <form 
             onSubmit={ onSubmit }
+            aria-label='form'
         >
             <input 
                 type="text" 

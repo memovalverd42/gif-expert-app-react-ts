@@ -21,6 +21,5 @@ export const useFetchGifs = ( category: string ) => {
         images,
         isLoading
     }
-
-
+    
 }
